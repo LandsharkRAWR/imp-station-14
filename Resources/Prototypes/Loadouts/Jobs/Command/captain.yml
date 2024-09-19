@@ -40,6 +40,11 @@
   equipment:
     head: ClothingHeadHatCapcap
 
+- type: loadout
+  id: CaptainTricorne
+  equipment:
+    head: ClothingHeadTricorneCaptain
+   
 # Neck
 - type: loadout
   id: CaptainCloak

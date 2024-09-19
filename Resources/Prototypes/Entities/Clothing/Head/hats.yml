@@ -220,6 +220,21 @@
     - WhitelistChameleon
 
 - type: entity
+  parent: [ClothingHeadBase, BaseCommandContraband]
+  id: ClothingHeadTricorneCaptain
+  name: captain's tricorne
+  description: It's good being the king.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/captricorne.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/captricorne.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCardborg
   name: cardborg helmet
