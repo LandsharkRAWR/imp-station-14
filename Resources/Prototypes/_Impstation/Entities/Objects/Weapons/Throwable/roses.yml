@@ -150,3 +150,24 @@
           Quantity: 2
         - ReagentId: PolytrinicAcid
           Quantity: 3
+
+- type: entity
+  parent: [Rose, BaseMajorContraband]
+  id: RoseClear
+  name: clear rose
+  description: Smells like whatever's in there.
+  components:
+  - type: Clothing
+    sprite: _Impstation/Objects/Specific/Hydroponics/clearRose.rsi
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Hydroponics/clearRose.rsi
+  - type: Item
+    sprite: _Impstation/Objects/Specific/Hydroponics/clearRose.rsi
+  - type: Produce
+    seedId: blackRose
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    fillBaseName: syringe
+    inHandsMaxFillLevels: 1
+    inHandsFillBaseName: -fill
